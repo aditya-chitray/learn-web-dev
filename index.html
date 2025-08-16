@@ -1,14 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>This is h1 tag</h1>
-    <p>this is a paragraph</p>
-    <script src="app.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>CSS Documentation</title>
+    </head>
+
+    <body>
+        <nav class="navbar" id="navbar">
+            <header>CSS Documentation</header>
+            <ul class="nav-ul">
+                <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+                <li><a class="nav-link" href="#Modules">Modules</a></li>
+                <li><a class="nav-link" href="#Properties">Properties</a></li>
+                <li><a class="nav-link" href="#Selectors">Selectors</a></li>
+                <li><a class="nav-link" href="#Combinators">Combinators</a></li>
+                <li><a class="nav-link" href="#Pseudo_Selectors">Pseudo Selectors</a></li>
+                <li><a class="nav-link" href="#Pseudo_Elements">Pseudo Elements</a></li>
+                <li><a class="nav-link" href="#At_rules">At rules</a></li>
+                <li><a class="nav-link" href="#Functions">Functions</a></li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <article>
+                    <p>Use this CSS reference to browse an alphabetical index of all of the standard CSS properties, pseudo-classes, pseudo-elements, data types, functional notations and at-rules. You can also browse key CSS concepts and a list of selectors organized by type. Also included is a brief DOM-CSS / CSSOM reference.</p>
+                    <div class="code-example">
+                        <span class="lang-header">CSS</span>
+                    </div>
+                    <div class="code-block">
+                    <code>
+                        <span class="token-selector">body</span>
+                        <span class="token-punctutation">{</span>
+                        <span class="property">background-color:</span>
+                        <span class="value">#ffffff;</span>
+                        <span class="token-punctutation">}</span>
+                    </code>
+                    </div>
+                    <p>See the index of selectors, pseudo-classes, and pseudo-elements below. The syntax for each specified value depends on the data type defined for each specified property.
+                    </p>
+                    <p>For a beginner-level introduction to the syntax of selectors, see our guide on CSS Selectors. Be aware that any syntax error in a rule definition invalidates the entire rule. Invalid rules are ignored by the browser. Note that CSS rule definitions are entirely (ASCII) text-based, whereas DOM-CSS / CSSOM (the rule management system) is object-based.</p> 
+                    <p>
+                        Tools for CSS Development
+                        <ul>
+                            <li>You can use the W3C CSS Validation Service to check if your CSS is valid. This is an invaluable debugging tool.</li>
+                            <li>Firefox Developer Tools lets you view and edit a page's live CSS via the Inspector and Style Editor tools.</li>
+                            <li>The Web Developer extension for Firefox lets you track and edit live CSS on watched sites.</li>
+                        </ul>
+                    </p> 
+                </article>
+            </section>
+            <section class="main-section" id="Modules">
+                <header>Modules</header>
+                <article>
+                    <p>The CSS anchor positioning module defines features that allow you to tether elements together. Certain elements are defined as anchor elements; anchor-positioned elements can then have their size and position set based on the size and location of the anchor elements to which they are bound.</p>
+                    <p>In addition, the specification provides CSS-only mechanisms to:
+                        <ul>
+                        <li>Specify a set of alternative positions for an anchored element; when the default rendering position causes it to overflow its containing block and/or be rendered offscreen, the browser will try rendering the anchored element in the alternative positions instead.</li>
+                        <li>Declare conditions under which anchor-positioned elements should be hidden, in situations where it is not appropriate to tether them to anchor elements.</li>
+                        </ul>
+                    </p>
+                    <div class="code-example">
+                        <span class="lang-header">CSS</span>
+                    </div>
+                    <div class="code-block">
+                        <code>
+                            <span class="token-selector">body</span>
+                            <span class="token-punctutation">{</span>
+                            <span class="property">background-color:</span>
+                            <span class="value">#ffffff;</span>
+                            <span class="token-punctutation">}</span>
+                        </code>
+                        </div>
+                </article>
+            </section>
+            <section class="main-section" id="Properties">
+                <header>Properties</header>
+                <article>
+                    <p>The content CSS property replaces content with a generated value. It can be used to define what is rendered inside an element or pseudo-element. For elements, the content property specifies whether the element renders normally (normal or none) or is replaced with an image (and associated "alt" text). For pseudo-elements and margin boxes, content defines the content as images, text, both, or none, which determines whether the element renders at all.</p>
+                    <div class="code-example">
+                        <span class="lang-header">CSS</span>
+                    </div>
+                    <div class="code-block">
+                        <code>
+                            <span class="token-selector">body</span>
+                            <span class="token-punctutation">{</span>
+                            <span class="property">background-color:</span>
+                            <span class="value">#ffffff;</span>
+                            <span class="token-punctutation">}</span>
+                        </code>
+                        </div>
+                </article>
+            </section>
+            <section class="main-section" id="Selectors">
+                <header>Selectors</header>
+                <article>
+                    <p>The case sensitivity of attribute names and values depends on the document language. In HTML, attribute names are case-insensitive, as are spec-defined enumerated values. The case-insensitive HTML attribute values are listed in the HTML spec. For these attributes, the attribute value in the selector is case-insensitive, regardless of whether the value is invalid or the attribute for the element on which it is set is invalid.</p>
+                    <div class="code-example">
+                        <span class="lang-header">CSS</span>
+                    </div>
+                    <div class="code-block">
+                        <code>
+                            <span class="token-selector">body</span>
+                            <span class="token-punctutation">{</span>
+                            <span class="property">background-color:</span>
+                            <span class="value">#ffffff;</span>
+                            <span class="token-punctutation">}</span>
+                        </code>
+                        </div>
+                </article>
+            </section>
+            <section class="main-section" id="Combinators">
+                <header>Combinators</header>
+                <article>
+                    <p>The child combinator (>) is placed between two CSS selectors. It matches only those elements matched by the second selector that are the direct children of elements matched by the first.</p>
+                    <div class="code-example">
+                        <span class="lang-header">CSS</span>
+                    </div>
+                    <div class="code-block">
+                        <code>
+                            <span class="token-selector">body</span>
+                            <span class="token-punctutation">{</span>
+                            <span class="property">background-color:</span>
+                            <span class="value">#ffffff;</span>
+                            <span class="token-punctutation">}</span>
+                        </code>
+                        </div>
+                </article>
+            </section>
+            <section class="main-section" id="Pseudo_Selectors">
+                <header>Pseudo Selectors</header>
+                <article>
+                    <p>The :any-link CSS pseudo-class selector represents an element that acts as the source anchor of a hyperlink, independent of whether it has been visited. In other words, it matches every <a> or <area> element that has an href attribute. Thus, it matches all elements that match :link or :visited.</p>
+                    <div class="code-example">
+                        <span class="lang-header">CSS</span>
+                    </div>
+                    <div class="code-block">
+                        <code>
+                            <span class="token-selector">body</span>
+                            <span class="token-punctutation">{</span>
+                            <span class="property">background-color:</span>
+                            <span class="value">#ffffff;</span>
+                            <span class="token-punctutation">}</span>
+                        </code>
+                        </div>
+                </article>
+            </section>
+            <section class="main-section" id="Pseudo_Elements">
+                <header>Pseudo Elements</header>
+                <article>
+                    <p>In CSS, ::after creates a pseudo-element that is the last child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default.</p>
+                    <div class="code-example">
+                        <span class="lang-header">CSS</span>
+                    </div>
+                    <div class="code-block">
+                        <code>
+                            <span class="token-selector">body</span>
+                            <span class="token-punctutation">{</span>
+                            <span class="property">background-color:</span>
+                            <span class="value">#ffffff;</span>
+                            <span class="token-punctutation">}</span>
+                        </code>
+                        </div>
+                </article>
+            </section>
+            <section class="main-section" id="At_rules">
+                <header>At Rules</header>
+                <article>
+                    <p>The @media CSS at-rule can be used to apply part of a style sheet based on the result of one or more media queries. With it, you specify a media query and a block of CSS to apply to the document if and only if the media query matches the device on which the content is being used.</p>
+                    <div class="code-example">
+                        <span class="lang-header">CSS</span>
+                    </div>
+                    <div class="code-block">
+                        <code>
+                            <span class="token-selector">body</span>
+                            <span class="token-punctutation">{</span>
+                            <span class="property">background-color:</span>
+                            <span class="value">#ffffff;</span>
+                            <span class="token-punctutation">}</span>
+                        </code>
+                        </div>
+                </article>
+            </section>
+            <section class="main-section" id="Functions">
+                <header>Functions</header>
+                <article>
+                    <p>The calc() CSS function lets you perform calculations when specifying CSS property values. It can be used with <code>length</code>, <code>frequency</code>, <code>angle</code>, <code>time</code>, <code>percentage</code>, <code>number</code>, <code>integer</code>, and <code>color-function</code> values.</p>
+                    <div class="code-example">
+                        <span class="lang-header">CSS</span>
+                    </div>
+                    <div class="code-block">
+                        <code>
+                            <span class="token-selector">body</span>
+                            <span class="token-punctutation">{</span>
+                            <span class="property">background-color:</span>
+                            <span class="value">#ffffff;</span>
+                            <span class="token-punctutation">}</span>
+                        </code>
+                        </div>
+                </article>
+            </section>
+
+
+        </main>
+    </body>
 </html>
