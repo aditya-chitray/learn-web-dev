@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: aqua;
+}
+
+.box1{
+    color:yellow;
+    padding:10px;
+    margin:25px;
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box; /* includes padding and border */
+}
+
+.box2{
+    color:red;
+     padding:10px;
+    margin:25px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box; /* includes padding and border */ 
+}
+
+/* Margin collapse in CSS refers to a behavior where the top and bottom margins of adjacent block-level elements are combined into a single margin, rather than being added together. The size of this resulting collapsed margin is determined by the larger of the individual margins involved. */
