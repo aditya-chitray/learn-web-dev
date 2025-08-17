@@ -1,0 +1,69 @@
+Element selector:
+
+h1{
+    color:blue;
+}
+
+-----------------------------------
+
+Element, Element Selector:
+
+h1,p {
+    color: blue;
+}
+
+-----------------------------------
+
+Class selector:
+
+.red{
+    color:blue;
+}
+
+-----------------------------------
+
+ID selector:
+
+#red{
+    color:blue;
+}
+
+----------------------------------
+
+universal selector:
+
+*{
+
+}
+
+----------------------------------
+
+descendent selector: any p tag that lies under div tag
+
+div p{
+
+}
+
+----------------------------------
+
+Child Selector: p tag that is immidiate child of div tag
+
+div > p{
+
+}
+
+----------------------------------
+
+Next Sibling: Next p tag that is Sibling to div tag 
+
+div + p{
+
+}
+
+----------------------------------
+
+Subsequent Sibling tag: all p tags sibling to div and placed after it
+
+div ~ p{
+
+}

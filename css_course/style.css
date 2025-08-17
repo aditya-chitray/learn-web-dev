@@ -1,0 +1,43 @@
+/* element selector */
+div {
+  background-color: rgb(1, 1, 246);
+  color: white;
+}
+
+/* class selector */
+.red {
+  background-color: red;
+}
+
+/* id selector */
+#green {
+  background-color: green;
+  color: white;
+}
+
+/* child selector */
+div > p {
+  background-color: blue;
+  color: brown;
+}
+
+/* Pseudo Classes */
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: green;
+}
+
+a:hover{
+  color:yellow;
+}
+
+a:active{
+  color:pink;
+}
+
+p:first-child{
+  background-color: yellow;
+}
