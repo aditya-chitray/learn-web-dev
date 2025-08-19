@@ -5,8 +5,8 @@
 }
 
 .main-block{
-    height:95vh;
-    width: 60vw;
+    height:400px;
+    width: 200px;
     border: 1px solid #888888;
     border-radius:10px;
     margin:auto;
@@ -18,7 +18,7 @@
 .image{
     position: relative;
     top:15px; 
-    padding-left: 17px; 
+    padding-left: 10px; 
 }
 
 img{
@@ -34,6 +34,7 @@ img{
     top:30px;
     left:30px;
     margin-right: 10px;
+    font-size: 10px;
 }
 
 .text{
@@ -43,25 +44,31 @@ img{
 
 }
 
+h1{
+ font-size: 12px;
+}
+
 p {
     margin-top:10px;
+    font-size: 10px;
 }
 
 .link{
     position:relative;
-    top:45px;
-    width:100px;
+    top:50px;
+    width:50px;
     display: flex;
     justify-content: space-evenly;
-    left:160px;
+    left:60px;
     border: 1px solid white;
-    border-radius: 15px;
-    padding:15px;
+    border-radius: 10px;
+    padding:10px;
     background-color: rgba(135,206,235, 0.25);
     color:blue;    
 }
 
 a{
     text-decoration: none;
+    font-size: 10px;
     /* align-self: center; */
 }
