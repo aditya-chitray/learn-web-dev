@@ -1,0 +1,33 @@
+:root {
+  --color: rgba(156, 156, 235);
+  --color2: rgb(103, 103, 234);
+  --defpad: 23px;
+  --defop: 0.4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 316px) {
+  ul {
+    flex-direction: column;
+  }
+}
+
+.navbar {
+  background-color: var(--color);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  /* background-color: var(--color2); */
+}
+
+li {
+  padding: var(--defpad);
+  background-color: var(--color2);
+  border: 1px solid white;
+}
