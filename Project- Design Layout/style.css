@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position:static;
+}
+
+.navbar{
+    position: fixed;
+    top:0px;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
+}
+
+.navbar > ul >li{
+    padding:10px 20px;
+    
+}
+
+li > a{
+    text-decoration: none;
+}
+
+.outerbox{
+     position:relative;
+    top:50px;
+    border: 2px solid black;
+    width: 98vw;
+    margin: 0px auto;
+    /* margin-top: px; */
+    height: 75vh;
+    display: flex;
+   
+    
+}
+
+.leftbox, .rightbox{
+    width: 40vw;
+    height: 30vw;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.leftbox{
+    background-color: pink;
+}
+
+.rightbox{
+    background-color: skyblue;
+}
+
+.roundbox{
+    position: relative;
+    margin:100px;
+    width: 80vw;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+      display: flex;
+    justify-content: end;
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    bottom: 20px;
+    border: 2px solid black;
+    width:20px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: green;
+}
+
+
+.lastbox{
+    position: relative;
+    top:10px;
+    border: 2px solid black;
+    height: 30px;
+    margin:10px 0px;
+    display: flex;
+    justify-content: center;
+}
